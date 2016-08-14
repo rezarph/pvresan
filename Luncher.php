@@ -1,5 +1,5 @@
 <?php
-define('BOT_TOKEN', '251531797:AAFXlERtAwxZOkU-e7Rn1GinUltuuMONIjg');
+define('BOT_TOKEN', '269212921:AAGOmOgzExBkyHV2_yuW_3Av4TJfyxBU9mA');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -561,7 +561,7 @@ $pmembersid= explode("\n",$txxt);
 
 }
 if($chat_id==$admin){
-  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => ' سلام قربان حوش آمدید😉
+  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => ' سلام قربان خوش آمدید😉
 برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
 برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
 .',"parse_mode"=>"MARKDOWN", 'reply_markup' => array(
@@ -691,7 +691,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 تعداد کاربران در لیست سیاه
 —-------------------------------
 🔸`4.`*Settings*
-تنظیمان ربات
+تنظیمات ربات
 
 .","parse_mode" =>"MARKDOWN",'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
@@ -725,7 +725,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
         'resize_keyboard' => true)));
     }
     else if ($text == "🔙 Back" && $chat_id==$admin) {
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان حوش آمدید😉
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان خوش آمدید😉
 برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
 برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
 .', 'reply_markup' => array(
