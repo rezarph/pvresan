@@ -577,8 +577,7 @@ apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیا�
 
 ".$starttext.""."
 
-👆تغییر یافت
-."));
+👆تغییر یافت"));
     
     
     
@@ -596,8 +595,7 @@ apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیا�
 
 ".$starttext.""."
 
-👆تغییر یافت
-."));
+👆تغییر یافت"));
     
     
     
